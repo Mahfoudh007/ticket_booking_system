@@ -23,9 +23,13 @@ created: Дата и время создания заказа
 
 Установка
 Клонируйте репозиторий.
+
 Импортируйте предоставленный SQL файл для настройки базы данных.
-Настройте параметры подключения к базе данных в файле config.php.
+
+Настройте параметры подключения к базе данных в файле db.php.
+
 Запустите проект на локальном сервере (например, XAMPP).
+
 Использование
 Перейдите на главную страницу, чтобы просмотреть доступные мероприятия.
 Щелкните по мероприятию, чтобы забронировать билеты.
@@ -56,12 +60,19 @@ created: Date and time the order was created
 
 Installation
 Clone the repository.
+
 Import the provided SQL file to set up the database.
-Configure the database connection settings in the config.php file.
+
+Configure the database connection settings in the db.php file.
+
 Run the project on a local server (e.g., XAMPP).
+
 Usage
+
 Navigate to the main page to view available events.
+
 Click on an event to book tickets.
+
 Enter the required details and complete the booking process.
 
 
@@ -92,7 +103,7 @@ created: تاريخ ووقت إنشاء الطلب
 
 استنساخ المستودع.
 استيراد ملف SQL المقدم لإعداد قاعدة البيانات.
-تكوين إعدادات الاتصال بقاعدة البيانات في ملف config.php.
+تكوين إعدادات الاتصال بقاعدة البيانات في ملف db.php.
 تشغيل المشروع على خادم محلي (مثل XAMPP).
 الاستخدام
 انتقل إلى الصفحة الرئيسية لعرض الفعاليات المتاحة.
