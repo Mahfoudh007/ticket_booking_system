@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ticket Booking System</title>
+    <title>Add Ticket Order</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,10 +16,15 @@
         </ul>
     </nav>
     <div class="container">
-        <h1>Ticket Booking System</h1>
+        <h1>Add Ticket Order</h1>
         <form action="add_order.php" method="POST" novalidate>
             <label for="event_id">Event ID:</label>
             <input type="number" id="event_id" name="event_id" required min="1" title="Please enter a valid event ID.">
+            <label for="type">Type:</label>
+            <select id="type" name="type">
+            <option value="event">Event</option>
+            <option value="order">Order</option>
+            </select>
 
             <label for="event_date">Event Date:</label>
             <input type="datetime-local" id="event_date" name="event_date" required>
